@@ -1,0 +1,19 @@
+Week 1
+------------------------------
+
+Guideline 1: correcte signatuur
+
+para 1: type object
+para 2: type eventargs, of een afgeleide class
+return type void
+
+Guideline 2: event afvuren via overrideable method
+On"Event" - routine die de eventafhaandeling start
+
+
+
+Week 2
+------------------------------
+
+Reflection steps:
+1) Attributes - Extra informatie koppelen aan code-elementen

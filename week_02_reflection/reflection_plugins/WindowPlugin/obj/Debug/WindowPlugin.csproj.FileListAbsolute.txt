@@ -1,0 +1,14 @@
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\bin\Debug\WindowPlugin.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\bin\Debug\WindowPlugin.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\UserControl1.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin_MarkupCompile.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin_MarkupCompile.lref
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\UserControl1.baml
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.g.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.Properties.Resources.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.csproj.GenerateResource.Cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\obj\Debug\WindowPlugin.csprojResolveAssemblyReference.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\bin\Debug\CustomAttribute.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\WindowPlugin\bin\Debug\CustomAttribute.pdb

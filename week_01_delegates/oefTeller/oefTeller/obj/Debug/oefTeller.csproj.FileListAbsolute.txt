@@ -1,0 +1,15 @@
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\bin\Debug\oefTeller.exe.config
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\bin\Debug\oefTeller.exe
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\bin\Debug\oefTeller.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.csprojResolveAssemblyReference.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\MainWindow.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\App.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller_MarkupCompile.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller_MarkupCompile.lref
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\MainWindow.baml
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.g.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.Properties.Resources.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.csproj.GenerateResource.Cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.exe
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_01_delegates\oefTeller\oefTeller\obj\Debug\oefTeller.pdb

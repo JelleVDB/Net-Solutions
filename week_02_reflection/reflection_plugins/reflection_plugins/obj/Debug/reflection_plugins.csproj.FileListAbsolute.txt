@@ -1,0 +1,16 @@
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\bin\Debug\reflection_plugins.exe.config
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\bin\Debug\reflection_plugins.exe
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\bin\Debug\reflection_plugins.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.csprojResolveAssemblyReference.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\MainWindow.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\App.g.cs
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins_MarkupCompile.cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins_MarkupCompile.lref
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\MainWindow.baml
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.g.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.Properties.Resources.resources
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.csproj.GenerateResource.Cache
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.exe
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\obj\Debug\reflection_plugins.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\bin\Debug\CustomAttribute.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\reflection_plugins\bin\Debug\CustomAttribute.pdb

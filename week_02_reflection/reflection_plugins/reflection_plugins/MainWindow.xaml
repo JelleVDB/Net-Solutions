@@ -1,0 +1,14 @@
+﻿<Window x:Class="reflection_plugins.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:reflection_plugins"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="517"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,24,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="285" Width="253"/>
+
+    </Grid>
+</Window>

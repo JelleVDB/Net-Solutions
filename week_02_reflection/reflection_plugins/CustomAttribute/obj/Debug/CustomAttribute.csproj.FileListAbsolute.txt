@@ -1,0 +1,4 @@
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\bin\Debug\CustomAttribute.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\bin\Debug\CustomAttribute.pdb
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.dll
+C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.pdb

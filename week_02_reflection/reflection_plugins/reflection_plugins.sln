@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reflection_plugins", "reflection_plugins\reflection_plugins.csproj", "{3C442418-29DA-4234-A3E7-09916955DB1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowPlugin", "WindowPlugin\WindowPlugin.csproj", "{1BC29D51-34EF-444F-BF9E-B6E2479245DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAttribute", "CustomAttribute\CustomAttribute.csproj", "{D853F055-E57B-4E97-BBA1-0213ED4D2B7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C442418-29DA-4234-A3E7-09916955DB1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C442418-29DA-4234-A3E7-09916955DB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C442418-29DA-4234-A3E7-09916955DB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C442418-29DA-4234-A3E7-09916955DB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC29D51-34EF-444F-BF9E-B6E2479245DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC29D51-34EF-444F-BF9E-B6E2479245DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC29D51-34EF-444F-BF9E-B6E2479245DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC29D51-34EF-444F-BF9E-B6E2479245DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D853F055-E57B-4E97-BBA1-0213ED4D2B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D853F055-E57B-4E97-BBA1-0213ED4D2B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D853F055-E57B-4E97-BBA1-0213ED4D2B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D853F055-E57B-4E97-BBA1-0213ED4D2B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
