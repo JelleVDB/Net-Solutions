@@ -2,3 +2,8 @@ C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflecti
 C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\bin\Debug\CustomAttribute.pdb
 C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.dll
 C:\Users\jelle\Documents\School\3NMCT\.NET Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.pdb
+D:\Documents\School\3NMCT\Net-Solutions\week_02_reflection\reflection_plugins\CustomAttribute\bin\Debug\CustomAttribute.dll
+D:\Documents\School\3NMCT\Net-Solutions\week_02_reflection\reflection_plugins\CustomAttribute\bin\Debug\CustomAttribute.pdb
+D:\Documents\School\3NMCT\Net-Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.csprojResolveAssemblyReference.cache
+D:\Documents\School\3NMCT\Net-Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.dll
+D:\Documents\School\3NMCT\Net-Solutions\week_02_reflection\reflection_plugins\CustomAttribute\obj\Debug\CustomAttribute.pdb
