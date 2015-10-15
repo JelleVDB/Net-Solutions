@@ -23,6 +23,18 @@ namespace DrawProgram
         public MainWindow()
         {
             InitializeComponent();
+            btnDraw.Click += BtnDraw_Click;
+            this.SizeChanged += MainWindow_SizeChanged;
+        }
+
+        private void MainWindow_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            cnvCompiler.drawFunction(txtFunction.Text);
+        }
+
+        private void BtnDraw_Click(object sender, RoutedEventArgs e)
+        {
+            cnvCompiler.drawFunction(txtFunction.Text);
         }
     }
 }

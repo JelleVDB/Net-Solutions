@@ -1,6 +1,8 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -11,27 +13,10 @@ namespace DrawProgram
 {
     class ucFunctie : System.Windows.Controls.Canvas
     {
-        public ucFunctie()
-        {
-            this.Loaded += UcFunctie_Loaded;
-            this.SizeChanged += UcFunctie_SizeChanged;
-        }
-
-        private void UcFunctie_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-            drawFunction();
-        }
-
-        private void UcFunctie_Loaded(object sender, RoutedEventArgs e)
-        {
-            drawFunction();
-        }
-
-        private void drawFunction()
+        public void drawFunction(string function)
         {
             Children.Clear();
-            Point[] points = new Point[(int)ActualWidth];
-            points = calculatePointValuesFromFunction(points, tekenFunctie.drawFunction);
+            Point[] points = getPointsFromFunction(function);
 
             for (int i = 0; i < points.Length - 1; i++)
             {
@@ -46,13 +31,41 @@ namespace DrawProgram
             }
         }
 
-        private Point[] calculatePointValuesFromFunction(Point[] points, Func<double, double> drawFunction)
+        private Point[] getPointsFromFunction(string function)
         {
-            double deltaX = 2 * System.Math.PI / ActualWidth;
+            Assembly functionAss = compileFunctionClass(function);
+            dynamic functionObject = functionAss.CreateInstance("DrawProgram.Function");
+            Type functionClass = functionAss.GetType("DrawProgram.Function");
+
+            Point[] points = new Point[(int)ActualWidth];
+            points = calculatePointValuesFromFunction(points, functionObject);
+
+            return points;
+        }
+
+        private Assembly compileFunctionClass(string function)
+        {
+            string csharpCode = @"namespace DrawProgram
+                                  { public class Function
+                                    {
+                                        public double RunFunction(double x)
+                                        {return " + function + @";
+                                        }}}";
+            CompilerParameters cparams = new CompilerParameters();
+            cparams.GenerateInMemory = true;
+
+            CodeDomProvider provider = CodeDomProvider.CreateProvider("CSharp");
+            CompilerResults results = provider.CompileAssemblyFromSource(cparams, csharpCode);
+            return results.CompiledAssembly;
+        }
+
+        private Point[] calculatePointValuesFromFunction(Point[] points, dynamic functionObject)
+        {
+            double deltaX = 5 * System.Math.PI / ActualWidth;
 
             for(int i = 0; i< points.Length; i++)
             {
-                points[i].Y = drawFunction(i * deltaX);
+                points[i].Y = functionObject.RunFunction(i * deltaX);
             }
 
             double minY = points.Min(p => p.Y);
