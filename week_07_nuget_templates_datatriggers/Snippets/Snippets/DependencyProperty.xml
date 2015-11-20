@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Attached dependency property met ValueChanged</Title>
+      <Author>Jelle</Author>
+      <Description>Aanmaken van een attached dependency property met ValueChanged callback</Description>
+      <Shortcut>propachanged</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>classname</ID>
+          <ToolTip>Class name</ToolTip>
+          <Function>ClassName()</Function>
+          <Default>ClassNamePlaceholder</Default>
+        </Literal>
+        <Literal>
+          <ID>methodtype</ID>
+          <ToolTip>Method return type</ToolTip>
+          <Default>Boolean</Default>
+        </Literal>
+        <Literal>
+          <ID>methodmodifier</ID>
+          <ToolTip>public/private/protected</ToolTip>
+          <Default>public</Default>
+        </Literal>
+        <Literal>
+          <ID>methodname</ID>
+          <ToolTip>Method Name</ToolTip>
+          <Default>MyMethod</Default>
+        </Literal>
+      </Declarations>
+      <Imports>
+        <Import>
+          <Namespace>System.Windows</Namespace>
+        </Import>
+      </Imports>
+      <Code Language="CSharp">
+        <![CDATA[
+         private UIElement _uie = null;
+         
+         $methodmodifier$ static $methodtype$ Get$methodname$(DependencyObject obj)
+         {
+          return ($methodtype$)obj.GetValue($classname$.$methodname$);
+         }
+         
+         $methodmodifier$ static void Set$methodname$(DependencyObject obj, $methodtype$ value)
+         {
+          obj.SetValue($classname$.$methodname$, value);
+         }
+          
+         $methodmodifier$ static readonly DependencyProperty $methodname$ = DependencyProperty.RegisterAttached("$methodname$", typeof($methodtype$), typeof($classname$),
+            new UIPropertyMetadata(new PropertyChangedCallback($methodname$Cb)));
+
+         private static void $methodname$Cb(DependencyObject target, DependencyPropertyChangedEventArgs e)
+          {
+            
+          }
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

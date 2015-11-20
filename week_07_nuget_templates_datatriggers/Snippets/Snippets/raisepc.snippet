@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet"> 
+    <CodeSnippet Format="1.0.0"> 
+        <Header> 
+            <Title>INotifyPropertyChanged bits</Title> 
+            <Shortcut>raisepc</Shortcut> 
+            <Description>Code snippet to implement INotifyPropertyChanged and create RaisePropertyChanged method</Description> 
+            <Author>Jelle</Author> 
+        </Header> 
+        <Snippet>
+          <Imports>
+            <Import>
+              <Namespace>System.ComponentModel</Namespace>
+            </Import>
+          </Imports>
+            <Code Language="csharp"><![CDATA[void RaisePropertyChanged(string prop)
+        {
+            if (PropertyChanged != null) { PropertyChanged(this, new PropertyChangedEventArgs(prop)); }
+        }
+        public event PropertyChangedEventHandler PropertyChanged;
+]]></Code> 
+        </Snippet> 
+    </CodeSnippet> 
+</CodeSnippets> 
