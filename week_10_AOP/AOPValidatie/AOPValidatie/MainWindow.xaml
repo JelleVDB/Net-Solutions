@@ -1,0 +1,35 @@
+﻿<Window x:Class="AOPValidatie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AOPValidatie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="550">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.ColumnSpan="9" HorizontalAlignment="Center" Text="AOP Validatie" FontSize="33" />
+        
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="Geboortejaar: " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="4" />
+        <TextBox Grid.Column="1" Grid.Row="1" Name="txtGeboortejaar" HorizontalAlignment="Stretch" Margin="4" VerticalAlignment="Center" />
+        <Button Grid.Column="2" Grid.Row="1" Name="btnDatumValidate" Content="Validate" Margin="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" Grid.Row="1" Name="txtRangeValidation" Text="" HorizontalAlignment="Right" Margin="4" VerticalAlignment="Center" Foreground="Red" />
+        
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="Rekeningnummer: " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="4" />
+        <TextBox Grid.Column="1" Grid.Row="2" Name="txtRekeningnummer" HorizontalAlignment="Stretch" Margin="4" VerticalAlignment="Center" />
+        <Button Grid.Column="2" Grid.Row="2" Content="Validate" Name="btnRekeningValidate" Margin="4" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="3" Grid.Row="2" Name="txtExpressionValidation" Text="" HorizontalAlignment="Right" Margin="4" VerticalAlignment="Center" Foreground="Red" />
+    </Grid>
+</Window>

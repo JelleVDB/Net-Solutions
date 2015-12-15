@@ -1,0 +1,32 @@
+﻿<Window x:Class="AOPGroepLabo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AOPGroepLabo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="120"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.ColumnSpan="9" HorizontalAlignment="Center" Text="Fibo test (mep aop)" FontSize="33" />
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="N: " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="4" />
+        <TextBox Grid.Column="1" Grid.Row="1" Name="txtN" HorizontalAlignment="Stretch" Margin="4" Text="6" VerticalAlignment="Center" />
+        <Button Grid.Column="2" Grid.Row="1" Margin="4" Name="BtnStart" Content="Bereken" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <TextBlock Grid.Column="3" Grid.Row="1" Name="txtF" HorizontalAlignment="Stretch" Margin="4" Text="" VerticalAlignment="Center" />
+        <Button Grid.Column="0" Grid.Row="2" Margin="4" Name="BtnDump" Content="Dump" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
